@@ -2,7 +2,7 @@
 #### Data Analysis Project 1
 
 This is a data analysis R project I did for the Modeling and Representation of Data course at Duke University. 
-The purpose of the analysis is to provide insights to the 3 questions asked below (texts from Professor Akande's course website). 
+The purpose of the analysis is to provide insights to the 3 questions asked below (texts adapted from Professor Akande's course website). 
 
 ##### QUESTION 1 RESPIRATORY RATES FOR CHILDREN. 
 A high respiratory rate is a potential diagnostic indicator of respiratory infection in children. To judge whether a respiratory rate is truly “high,” however, a physician must have a clear picture of the distribution of “normal” respiratory rates. To this end, Italian researchers measured the respiratory rates of 618 children between the ages of 15 days and 3 years.
