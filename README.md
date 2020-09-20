@@ -1,5 +1,4 @@
-### IDS702 - Fall 2020
-#### Modeling And Representation Of Data 
+### IDS702 - Modeling And Representation Of Data (Fall 2020)
 #### Data Analysis Project 1
 
 This is a data analysis R project I did for the Modeling and Representation of Data course at Duke University. 
