@@ -37,12 +37,12 @@ AirBnB is a rental online marketplace. The company itself is based in San Franci
 
 ##### Code Book
 
-Variable:	Description
-id:	Unique identifier for listings
-host_is_superhost:	Whether or not the host is a “superhost,” meaning they satisfy AirBnB’s criteria for high-quality listings, high response rate, and reliability
-host_identity_verified:	Whether or not the host has verified their identity with AirBnB
-room_type:	Entire home/apt, private room, or shared room
-accommodates:	Number of people that the listing can accommodate
-bathrooms:	Number of bathrooms in the listing
-bedrooms:	Number of bedrooms in the listing
-price (response variable):	Price of the listing for one night
+Variable:	Description <br />
+id:	Unique identifier for listings <br />
+host_is_superhost:	Whether or not the host is a “superhost,” meaning they satisfy AirBnB’s criteria for high-quality listings, high response rate, and reliability <br />
+host_identity_verified:	Whether or not the host has verified their identity with AirBnB <br />
+room_type:	Entire home/apt, private room, or shared room <br />
+accommodates:	Number of people that the listing can accommodate <br />
+bathrooms:	Number of bathrooms in the listing <br />
+bedrooms:	Number of bedrooms in the listing <br />
+price (response variable):	Price of the listing for one night <br />
