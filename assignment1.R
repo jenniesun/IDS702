@@ -1,11 +1,10 @@
 ---
-  title: "Assignment1"
+title: "Assignment1"
 author: "Jennie Sun"
 date: "8/28/2020"
 output: pdf_document
 ---
-  
-  library(kableExtra)
+library(kableExtra)
 library(knitr)
 library(tinytex)
 library(tidyr)
@@ -66,7 +65,7 @@ pred = cbind(ages, pred)
 kable(pred, format='markdown',booktabs=T, caption='95% Prediction Intervals')
 
 # 95% prediction intervals for the rate for three individual children:
-#   1 month old: (30.92683, 61.78607)
+# 1 month old: (30.92683, 61.78607)
 # 18 months old: (19.11397 49.94468)
 # 29 months old: (11.43713, 42.31582)
 
@@ -86,7 +85,6 @@ plot(elec_model,which=5,col=c("blue4"))
 
 
 ## Fit a linear regression model to the data to predict Buchanan votes from Bush votes, without using Palm Beach County results. You should consider transformations for both variables if you think there’s a violation of normality and/or linearity.
-
 subset <- subset(elec, County != 'Palm Beach')
 log_elec_model <- lm(log(Buchanan2000) ~ log(Bush2000), data=subset)
 
@@ -183,17 +181,14 @@ ggplot(listing_model,aes(x=log(listing$bedrooms), y=listing_model$residual)) +
 ggplot(listing_model,aes(x=log(listing$price), y=listing_model$residual)) +
   geom_point(alpha = .7) + geom_hline(yintercept=0,col="red3") + theme_classic() +
   labs(title="Residuals vs price",x="price",y="Residuals")
-
 #Looking at the x variables against residuals plots, most of the points seem to be equally distributed above and below the 0.0 residuals line, and are randomly distributed, so no clear pattern is identified, and the linearity assumption holds.
 
 #Check independence and equal variance:
 plot(listing_model,which=1,col=c("blue4"))
-
 #Looking at the residual against fitted values plot, most of the points seem to be distributed randomly, and there doesn't seem to be a clear pattern. The red line is very close to flat and to the 0.0 residuals line. The points seem to be equally distributed above and below the 0.0 residuals line as well. So the independence and equal variance assumptions hold.
 
 #Check normality:
 plot(listing_model,which=2,col=c("blue4"))
-
 #Looking at the Normal Q-Q plot, most points on the graph seem to fall on the 45 degree angle line, with a few deviations at both ends, which could be caused by outliers in the dataset that need further investigations. Therefore, the normality assumption holds, and we conclude that the main assumptions are plausible in this model.
 
 
