@@ -1,11 +1,11 @@
-# IDS702 - Fall 2020
-# Modeling And Representation Of Data 
-# Data Analysis Project 1
+### IDS702 - Fall 2020
+#### Modeling And Representation Of Data 
+#### Data Analysis Project 1
 
 This is a data analysis R project I did for the Modeling and Representation of Data course at Duke University. 
 The purpose of the analysis is to provide insights to the 3 questions asked below (texts from Professor Akande's course website). 
 
-# QUESTION 1 RESPIRATORY RATES FOR CHILDREN. 
+##### QUESTION 1 RESPIRATORY RATES FOR CHILDREN. 
 A high respiratory rate is a potential diagnostic indicator of respiratory infection in children. To judge whether a respiratory rate is truly “high,” however, a physician must have a clear picture of the distribution of “normal” respiratory rates. To this end, Italian researchers measured the respiratory rates of 618 children between the ages of 15 days and 3 years.
 
 1. Do exploratory analysis on the data and include a useful plot that a physician could use to assess a “normal” range of respiratory rates for children of any age between 0 and 3.
@@ -15,7 +15,7 @@ Include a table showing the output from the regression model including the estim
 3. Is there enough evidence that the model assumptions are reasonable for this data? You should consider transformations (think log transformations, etc) if you think there’s a violation of normality and/or linearity.
 4. Demonstrate the usefulness of the model by providing 95% prediction intervals for the rate for three individual children: a 1 month old, an 18 months old, and a 29 months old.
 
-# THE DRAMATIC U.S. PRESIDENTIAL ELECTION OF 2000. 
+##### THE DRAMATIC U.S. PRESIDENTIAL ELECTION OF 2000. 
 The U.S. presidential election of November 7, 2000 was one of the closest in history. As returns were counted on election night it became clear that the outcome in the state of Florida would determine the next president. At one point in the evening, television networks projected that the state was carried by the Democratic nominee, Al Gore, but a retraction of the projection followed a few hours later. Then, early in the morning of November 8, the networks projected that the Republican nominee, George W. Bush, had carried Florida and won the presidency. Gore called Bush to concede. While on route to his concession speech, though, the Florida count changed rapidly in his favor. The networks once again reversed their projection, and Gore called Bush to retract his concession. When the roughly 6 million Florida votes had been counted, Bush was shown to be leading by only 1,738, and the narrow margin triggered an automatic recount. The recount, completed in the evening of November 9, showed Bush’s lead to be less than 400.
 Meanwhile, angry Democratic voters in Palm Beach County complained that a confusing “butterfly” lay-out ballot caused them to accidentally vote for the Reform Party candidate Pat Buchanan instead of Gore. The ballot, as illustrated below, listed presidential candidates on both a left-hand and a right-hand page. 
 
@@ -27,7 +27,7 @@ Voters were to register their vote by punching the circle corresponding to their
 4. Obtain a 95% prediction interval for the number of Buchanan votes in Palm Beach from this result, assuming the relationship is the same in this county as in the others. If it is assumed that Buchanan’s actual count contains a number of votes intended for Gore, what can be said about the likely size of this number from the prediction interval?
 
 
-# AIRBNB LISTINGS FOR SEATTLE, WA. 
+##### AIRBNB LISTINGS FOR SEATTLE, WA. 
 AirBnB is a rental online marketplace. The company itself is based in San Francisco CA, and there are millions of listings in cities across the world. In this problem, you will only focus on data for AirBnB listings in Queen Anne, Seattle, WA. Specifically, you will try to understand how certain factors influence the price of a listing. The data we will use here is a very small subset of the overall available data. For more on the data, or if you are interested in using AirBnB data, see http://insideairbnb.com/get-the-data.html.
 
 1. Analyze the data using host_is_superhost,host_identity_verified, room_type, accommodates, bathrooms and bedrooms as predictors. You should start by doing EDA, then model fitting, and model assessment. You should consider transformations if needed.
@@ -36,7 +36,7 @@ AirBnB is a rental online marketplace. The company itself is based in San Franci
 4. Are there any (potential) outliers, leverage points or influential points? Provide evidence to support your response. Also, if there are influential points and/or outliers, exclude the points, fit your model without them, and report the changes in your overall conclusions.
 5. Overall, are there any potential limitations of this analysis? If yes, what are two potential limitations?
 
-# Code Book
+##### Code Book
 
 Variable:	Description
 id:	Unique identifier for listings
